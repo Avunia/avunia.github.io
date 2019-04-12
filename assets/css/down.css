@@ -1,0 +1,187 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    -ms-scroll-limit: 0 0 0 0;
+}
+.wrap {
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+.wrap:before {
+    content: '';
+    display: inline-block;
+    height: 100vh;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+#background {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    opacity: 1.0;
+
+    -moz-animation-name: animateBg;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-duration: 0.8s;
+
+    -webkit-animation-name: animateBg;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 0.8s;
+
+    animation-name: animateBg;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.8s;
+
+
+}
+#background > div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(-25deg,
+            #b5aaf3 20%,
+            rgba(0,0,0,0.25) 20%,
+            rgba(0,0,0,0.25) 80%,
+            #b5aaf3 80%
+        ),
+        linear-gradient(-25deg,
+            rgba(0,0,0,.2) 20%,
+            rgba(0,0,0,0) 21%,
+            rgba(0,0,0,0) 79%,
+            rgba(0,0,0,.2) 80%
+        );
+    z-index: -10;
+}
+
+.content {
+    margin-top: 0%;
+    width: 600px;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px rgba(0,0,0,.5);
+
+    display: inline-block;
+    vertical-align: middle;
+
+    -moz-animation-name: animateContent;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-duration: 0.8s;
+
+    -webkit-animation-name: animateContent;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 0.8s;
+
+    animation-name: animateContent;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.8s;
+}
+.content p a {
+    background:#b5aaf3;
+    border-radius:3px;
+    box-shadow:0 0 5px 0 rgba(0,0,0,.3);
+    color:white;
+    display: inline-block;
+    padding:2px 8px;
+    text-shadow:0 0 2px rgba(0,0,0,.8);
+    transition: all .2s;
+}
+.content p a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    text-decoration: none;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+p {
+    font-size: 20px;
+    font-weight: 200;
+}
+a {
+    color: rgb(252, 176, 77);
+}
+h3 > a {
+    margin: 0 16px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+table#standbyBG {
+    -moz-animation-name: animateSBG;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-duration: 0.8s;
+
+    -webkit-animation-name: animateSBG;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 0.8s;
+
+    animation-name: animateSBG;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.8s;
+}
+
+@keyframes animateBg {
+    0% {
+        width: 200%;
+        height: 200%;
+        top: -50%;
+        left: -50%;
+        opacity: 0.0;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        opacity: 1.0;
+    }
+}
+
+@keyframes animateSBG {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes animateContent {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}

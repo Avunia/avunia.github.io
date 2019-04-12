@@ -1,0 +1,17 @@
+# System files
+*.db
+aspnet_client
+*.config
+
+# IDE files
+.vs
+.vscode
+
+# Markdown notes :)
+.notes.md
+
+# Source files
+*.pdn
+*.psd
+*.ai
+*.sai

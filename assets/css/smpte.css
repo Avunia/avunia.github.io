@@ -1,0 +1,32 @@
+﻿/* css for the SMPTE test card table */
+/* created by WindyRain0212/Avunia */
+
+table#standbyBG {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    opacity: 1.0;
+}
+#standbyBG tr:nth-child(1) {
+    height: 73%;
+}
+#standbyBG tr:nth-child(2) {
+    height: 7%;
+}
+#standbyBG tr:nth-child(3) {
+    height: 20%;
+}
+#standbyBG tr td {
+    width: 14.28%;
+}
+#bwgrad {
+    background: linear-gradient(
+        90deg,
+        #000000,
+        #ffffff
+        );
+}
