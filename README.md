@@ -1,7 +1,7 @@
 
-# avunia dot net
+# atakiya dot net
 
-![License](https://img.shields.io/github/license/Avunia/avunia.github.io.svg?style=for-the-badge)
+![License](https://img.shields.io/github/license/atakiya/atakiya.github.io.svg?style=for-the-badge)
 ![HostedByGitHub](https://img.shields.io/badge/hosted%20by-github-blue.svg?style=for-the-badge)
 
 ## About
