@@ -1,17 +1,23 @@
 # System files
+.DS_Store
+aspnet_client/
 *.db
-aspnet_client
 *.config
 
 # IDE files
-.vs
-.vscode
+.vs/
+.vscode/
+.idea/
 
 # Markdown notes :)
 .notes.md
 
-# Source files
+# Image source files
 *.pdn
 *.psd
 *.ai
 *.sai
+
+# Svelte
+/node_modules/
+/public/build/
