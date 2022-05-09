@@ -23,5 +23,4 @@ jobs:
         with:
           branch: gh-pages
           folder: public
-          target-fodler: public
           single-commit: true
