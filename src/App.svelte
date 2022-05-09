@@ -20,23 +20,7 @@
 			href: 'https://t.me/atakiya'
 		}
 	}
-
-	const meta = {
-		title: "Avunia Takiya",
-		description: "Avunia Takiya's personal homepage"
-	}
 </script>
-
-<svelte:head>
-	<title>{meta.title} | Homepage</title>
-	<meta name="description" content="{meta.description}"/>
-	<meta name="author" content="Avunia Takiya"/>
-	<meta property="og:title" content="{meta.title}"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:description" content="{meta.description}"/>
-	<meta property="og:url" content="https://takiya.eu/"/>
-	<meta property="og:image" content="https://takiya.eu/favicon.png"/>
-</svelte:head>
 
 <main>
 	<p>Hello! My name is Alexander, better known under the alias of ｢Avunia Takiya｣.</p>
