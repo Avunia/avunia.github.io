@@ -1,3 +1,9 @@
+<svelte:head>
+	{#each Object.values(socials) as {href}}
+		<link rel="me" href="{href}"/>
+	{/each}
+</svelte:head>
+
 <script>
 	import Navbar from './Navbar.svelte';
 	import SocialLink from './SocialLink.svelte';
