@@ -3,7 +3,7 @@
 	export let name;
 </script>
 
-<a {href} target="_blank">{name}</a>
+<a rel="me" {href} target="_blank">{name}</a>
 
 <style>
 	a {
