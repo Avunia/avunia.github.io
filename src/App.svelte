@@ -28,7 +28,7 @@
 
 <main>
 	<p>Hello! My name is Alexander, better known under the alias of ｢Avunia Takiya｣.</p>
-	<p>I am a jack-of-all-trades developer; designer, troubleshooter, avian enthusiast and more.</p>
+	<p>I am a jack-of-many-trades: developer, designer, troubleshooter, avian enthusiast and more.</p>
 	<p>My favorite things are <span class="emphasize">birds, hardware, software, <span title="Space, or, the universe">the skies beyond our planet</span></span> and <span class="emphasize">mangos</span>.</p>
 	<br/>
 	<p>You can primarily reach me for personal reasons via <a href="mailto:avunia@takiya.eu">email</a> and <SocialLink {...socials.tgram}/>, or one of the options below.</p>
