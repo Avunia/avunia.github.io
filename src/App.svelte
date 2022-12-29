@@ -18,6 +18,10 @@
 		tgram: {
 			name: 'Telegram',
 			href: 'https://t.me/atakiya'
+		},
+		mastodon: {
+			name: 'Mastodon',
+			href: 'https://furry.engineer/@atakiya'
 		}
 	}
 </script>
