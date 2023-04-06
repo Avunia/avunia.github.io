@@ -34,8 +34,8 @@
 
 <main>
 	<p>Hello! My name is Alexander, better known under the alias of ｢Avunia Takiya｣.</p>
-	<p>I am a jack-of-many-trades: developer, designer, troubleshooter, avian enthusiast and more.</p>
-	<p>My favorite things are <span class="emphasize">birds, hardware, software, <span title="Space, or, the universe">the skies beyond our planet</span></span> and <span class="emphasize">mangos</span>.</p>
+	<p>I'm a self-taught DevOps Engineer, aspiring Network technician and passionate hobby fullstack developer and UI designer.</p>
+	<p>There are a couple things I totally fawn about, such as Avians, Electronics, Hardware, Space and the Universe(s?), and Mangos.</p>
 	<br/>
 	<p>You can primarily reach me for personal reasons via <a href="mailto:avunia@takiya.eu">email</a> and <SocialLink {...socials.tgram}/>, or one of the options below.</p>
 	<p>For business opportunities, please get in touch via <a href="mailto:alexander@takiya.eu">this email</a>.</p>
@@ -96,8 +96,5 @@
 	hr {
 		width: 25%;
 		border: 1px solid var(--color-hyperlink);
-	}
-	.emphasize {
-		text-transform: capitalize;
 	}
 </style>
