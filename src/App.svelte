@@ -13,10 +13,6 @@
 			name: 'GitHub',
 			href: 'https://github.com/atakiya'
 		},
-		linkedin: {
-			name: 'LinkedIn',
-			href: 'https://www.linkedin.com/in/alexander-meinhardt-901797136'
-		},
 		steam: {
 			name: 'Steam',
 			href: 'https://steamcommunity.com/profiles/76561198075021574'
@@ -38,7 +34,7 @@
 	<p>My favorite things are <span class="emphasize">birds, hardware, software, <span title="Space, or, the universe">the skies beyond our planet</span></span> and <span class="emphasize">mangos</span>.</p>
 	<br/>
 	<p>You can primarily reach me for personal reasons via <a href="mailto:avunia@takiya.eu">email</a> and <SocialLink {...socials.tgram}/>, or one of the options below.</p>
-	<p>For business, please get in touch via <a href="mailto:alexander@takiya.eu">this email</a>, <SocialLink {...socials.linkedin}/>, or <SocialLink {...socials.gh}/>.</p>
+	<p>For business opportunities, please get in touch via <a href="mailto:alexander@takiya.eu">this email</a>.</p>
 </main>
 <hr/>
 <Navbar {socials}/>
