@@ -13,9 +13,18 @@ jobs:
       - name: Checkout 📥
         uses: actions/checkout@v3
 
-      - name: Install & Build 🛠️
+      - name: Setup Node.js 🔩
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts
+          cache: npm
+
+      - name: Install Dependencies 🛠️
         run: |
           npm ci
+
+      - name: Build 📦
+        run: |
           npm run build
 
       - name: Deploy 🚀
