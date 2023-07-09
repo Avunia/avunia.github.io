@@ -8,6 +8,9 @@ aspnet_client/
 .vs/
 .vscode/
 .idea/
+.env
+.env.*
+!.env.example
 
 # Markdown notes :)
 .notes.md
@@ -19,5 +22,9 @@ aspnet_client/
 *.sai
 
 # Svelte
+/.svelte-kit/
+/build/
 /node_modules/
-/public/build/
+/package/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

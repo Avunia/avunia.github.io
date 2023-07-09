@@ -1,11 +1,14 @@
-<script>
+<script lang="ts">
 	import SocialLink from './SocialLink.svelte';
-	export let socials;
+
+	// TODO: Set the signature correctly
+	// Ooorrr, use some data file format for cleanliness
+	export let socials: object;
 </script>
 
 <footer>
 	{#each Object.values(socials) as social}
-		<div><SocialLink {...social}/></div>
+		<div><SocialLink {...social} /></div>
 	{/each}
 </footer>
 
@@ -23,7 +26,7 @@
 		}
 		footer div:not(:first-child)::before {
 			content: '▲';
-			margin: .75em;
+			margin: 0.75em;
 		}
 	}
 	@media (orientation: portrait) {
@@ -32,7 +35,7 @@
 		}
 
 		footer > div {
-			margin: .4em;
+			margin: 0.4em;
 		}
 	}
 </style>

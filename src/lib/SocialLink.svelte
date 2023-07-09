@@ -1,6 +1,6 @@
-<script>
-	export let href;
-	export let name;
+<script lang="ts">
+	export let href: string;
+	export let name: string;
 </script>
 
 <a rel="me" {href} target="_blank">{name}</a>
